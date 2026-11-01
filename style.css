@@ -45,3 +45,5 @@ footer{padding:32px 20px;color:var(--muted);font-size:14px;border-top:1px solid 
 .badge{display:inline-block;border:1px solid var(--blue);border-radius:999px;padding:6px 16px;font-size:14px;font-weight:600;color:var(--fg);background:var(--card)}
 .badge.open{border-color:var(--tint);color:var(--tint)}
 #contact p.badge{color:var(--tint);margin:0 0 16px}
+.card .badges.stats{margin:14px 0 16px}
+.card .badges.stats{padding-left:0}
