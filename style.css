@@ -40,3 +40,8 @@ footer{padding:32px 20px;color:var(--muted);font-size:14px;border-top:1px solid 
 .group{font-size:.85rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--tint);margin:0 0 14px}
 .chips + .group{margin-top:28px}
 .grid + .group{margin-top:32px}
+.role{color:var(--tint);font-weight:600;margin:0 0 10px;max-width:60ch}
+.badges{list-style:none;padding:0;margin:22px 0 0;display:flex;flex-wrap:wrap;gap:10px}
+.badge{display:inline-block;border:1px solid var(--blue);border-radius:999px;padding:6px 16px;font-size:14px;font-weight:600;color:var(--fg);background:var(--card)}
+.badge.open{border-color:var(--tint);color:var(--tint)}
+#contact p.badge{color:var(--tint);margin:0 0 16px}
