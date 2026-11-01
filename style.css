@@ -37,3 +37,6 @@ footer{padding:32px 20px;color:var(--muted);font-size:14px;border-top:1px solid 
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}html{scroll-behavior:auto}}
 @media (max-width:520px){nav a{margin-left:12px}}
+.group{font-size:.85rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--tint);margin:0 0 14px}
+.chips + .group{margin-top:28px}
+.grid + .group{margin-top:32px}
